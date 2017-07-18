@@ -1,6 +1,7 @@
 module.exports = function(bot) {
-    bot.hear(/test/, function(res) {
-        return res.send("Robot is running!");
+    bot.respond(/Is it a (weekend|holiday)\s?\?/i, function(msg){
+        var today = new Date();
+        msg.reply(((today.getDay() === 0) || (today.getDay() === 6)) ? "YES" : "NO");
     });
 
-};
+}
