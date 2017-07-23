@@ -1,3 +1,13 @@
+For school:
+User can speak with the bot with the following steps:
+1. 'hello'
+2. When asked aged, user must respond with this format, 'I am (age)'
+3. If you would like the bot to tell you a joke, please ask the bot, 'tell me a joke'
+
+The bot responds conversationally and should use the .match function and the .random function.
+
+Note:I was unable to get the google-image-api working on my bot. The current documentation online all seem to de deprecated
+
 # atsirk
 
 atsirk is a chat bot built on the [Hubot][hubot] framework. It was
